@@ -1,12 +1,10 @@
 {
-  "name": "Headless_Browser",
+  "name": "DEMO_Headless-Browser",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.7.2-beta.604620]",
-    "UiPath.Mail.Activities": "[1.7.2-beta.604622]",
-    "UiPath.System.Activities": "[19.10.1-beta.604616]",
-    "UiPath.UIAutomation.Activities": "[19.10.1-beta.604613]"
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
@@ -30,7 +28,7 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfos": []
+    "fileInfoCollection": []
   },
   "expressionLanguage": "VisualBasic"
 }
