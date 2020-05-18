@@ -1,6 +1,6 @@
 {
-  "name": "DEMO_Headless-Browser",
-  "description": "Blank Process",
+  "name": "DEMO_WebDriver_Headless-Browser",
+  "description": "Demo de UiPath Driver(WebDriver) utilizando o Headless Browser do Google Chrome",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[20.4.0]",
