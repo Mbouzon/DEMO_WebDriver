@@ -1,8 +1,15 @@
-# Pastas do projeto UiPath Studio
+# Itens de exclussao de versionamento GIT em projetos UiPath Studio
 .local/
-.settings/
-.tmh/
-.objects/
+
+# como falamos isso fica sendo opcional, não existe a necessidade de versionamento
+# dos screenshots dos objetos identificados, porém se acreditar que pode ser útil
+# e o volume destes arquivos não for causar um problema de recurso de disco, pode
+# retirar e versionar
+.screenshots/
+
+# Para remover arquivos iniciados com estes caracteres que muitas vezes
+# representam uma copia e por isso nao existe necessidade de versionar
+[~][$]* 
 
 # Arquivos de Video
 *.mp4
@@ -10,5 +17,5 @@
 # Arquivos do MACOS para armazenar atributos da pasta corrente
 .DS_Store
 
-# Pasta de logfiles(padrão que uso)
-LogFiles/*.*
+# logfiles(padrão que uso)
+*.log
